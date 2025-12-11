@@ -5,7 +5,7 @@ import {Box} from "@react-three/drei"
 import { OrbitControls } from "@react-three/drei";
 import MacbookModel14 from './models/Macbook-14';
 import MacbookModel16 from './models/Macbook-16';
-import StudioLights from "./three/StudioLights";
+import StudioLights from "./three/studioLights";
 
 import ModelSwitcher from './three/modelSwitcher';
 import { useMediaQuery } from "react-responsive";

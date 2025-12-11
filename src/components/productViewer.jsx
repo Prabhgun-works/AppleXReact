@@ -33,10 +33,10 @@ export default function ProductViewer() {
                         />
 
                         <div 
-                        onClick={()=> setColor('#2e2c2e') }
+                        onClick={()=> setColor('#707070') }
                         className={clsx(
                             'bg-neutral-900',
-                            color === '#2e2c2e' && 'active'
+                            color === '#707070' && 'active'
                           )}             
                         ></div>
                     </div>

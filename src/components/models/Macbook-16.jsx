@@ -16,9 +16,11 @@ import {Color}  from 'three';
 
 
 export default function MacbookModel16(props) {
-  const { nodes, materials, scene } = useGLTF('/models/macbook-16-transformed.glb')
-  const texture = useTexture('/screen.png');
+  const { nodes, materials, scene } = useGLTF('/models/macbook-16-transformed.glb');
   const {color} = useMacbookStore(); 
+
+  const texture = useTexture('/screen.png');
+
 
   useEffect(()=> {
     scene.traverse((child) => {

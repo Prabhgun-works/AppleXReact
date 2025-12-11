@@ -11,7 +11,7 @@ const Footer = () => {
             <hr />
 
             <div className="links">
-                <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
+                <p>Prabhgun@creates</p>
 
                 <ul>
                     {footerLinks.map(({label, link }) => (

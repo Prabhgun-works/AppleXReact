@@ -5,9 +5,8 @@ import {Box} from "@react-three/drei"
 import { OrbitControls } from "@react-three/drei";
 import MacbookModel14 from './models/Macbook-14';
 import MacbookModel16 from './models/Macbook-16';
-import StudioLights from "./three/studioLights";
-
-import ModelSwitcher from './three/modelSwitcher';
+import StudioLights from "./three/studioLights.jsx";
+import ModelSwitcher from "./three/modelSwitcher.jsx";
 import { useMediaQuery } from "react-responsive";
 export default function ProductViewer() {
     const {color, setColor , scale, setScale} = useMacbookStore(); 

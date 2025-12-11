@@ -13,7 +13,7 @@ export default function Hero() {
                 <img src="/title.png" alt="MacTitle"/>                
             </div>
 
-            <video  autoPlay muted playsInline playbackRate ='2'>
+            <video  autoPlay muted playsInline>
             <source src={'/videos/hero.mp4'} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
